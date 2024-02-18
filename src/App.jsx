@@ -1,10 +1,12 @@
-import CalcularInflacion './components/calcularInflacion/calcularInflacion';
+import React from 'react';
+import InflationCalculator from './components/calcularInflacion/calcularInflacion';
+
 const App = () => {
   return (
     <>
-      <CalcularInflacion/>
+      <InflationCalculator />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
