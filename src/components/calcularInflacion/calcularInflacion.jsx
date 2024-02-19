@@ -41,7 +41,7 @@ const InflationCalculator = () => {
             onChange={(e) => setYears(parseFloat(e.target.value))}
           />
         </div>
-        <button onClick={calculateAdjustedValue}>Calculate</button>
+        <button className='button' onClick={calculateAdjustedValue}>Calculate</button>
         {adjustedValue !== null && (
           <div>
             <h3>Adjusted Value:</h3>

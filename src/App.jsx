@@ -4,7 +4,7 @@ import InflationCalculator from './components/calcularInflacion/calcularInflacio
 const App = () => {
   return (
     <>
-      <InflationCalculator />
+      <InflationCalculator />Ñ
     </>
   );
 }
